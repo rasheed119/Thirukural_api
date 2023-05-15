@@ -77,7 +77,9 @@ function get_details(){
       kural_section_tamil.value = data.sect_tam;
       tamil_Explanation.value = data.tam_exp;
   }catch{
-    alert("Enter the valid number ")
+    alert("Enter the valid number ");
+    spinner.style.display="none";
+    button.style.display="block";
   }
 
   },1000)
